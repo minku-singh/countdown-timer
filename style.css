@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./snow.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 2rem;
+}
+
+.left-time{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.each{
+    margin: 2vh 2vw;
+}
